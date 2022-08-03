@@ -1,0 +1,37 @@
+.form {
+    margin-top: 50px;
+
+    & form {
+        width: 65%;
+        margin: auto;
+    }
+    &__group {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    & label {
+        width: 150px;
+    }
+
+    & input {
+        width: 250px;
+    }
+
+    &__submit {
+        padding: 8px 70px;
+        border-radius: 25px;
+        outline: none;
+        border: 1px solid black;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 36%;
+        transform: translateX(-50%);
+    }
+
+    &__error {
+        color: red;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}
