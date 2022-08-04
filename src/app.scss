@@ -16,6 +16,7 @@
 
     & input {
         width: 250px;
+        outline: none;
     }
 
     &__submit {
@@ -27,6 +28,12 @@
         margin-top: 20px;
         margin-left: 36%;
         transform: translateX(-50%);
+    }
+
+    &__input {
+        &--error {
+            border: 1px solid red;
+        }
     }
 
     &__error {
