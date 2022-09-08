@@ -1,12 +1,11 @@
-import './app.scss';
-import FormikYup from './FormikYup';
+import FormikYup from './components/FormikYup'
 
 function App() {
   return (
     <div className='app'>
-        <FormikYup />
+      <FormikYup />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
